@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"></div>
+        <p>Student At Ramaiah Institute Of Technology</p>
+        <br>
+        <h1 >Hi,I'm <span style="color: teal;">Somanagoud Biradar</span><br> From Vijayapura,<span style="color: teal;">Karnataka</span></h1>
+       </div> 
+    </div>
+    <!----------------------------------------------about----------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Camera Roll/2.jpg" class="image">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me:</h1>
+                        <p>Passionate and dedicated student at Ramaiah Institute of Technology, driven by a strong commitment to lifelong 
+                            learning and skill development. With an eagerness to expand my knowledge and expertise, I actively seek out 
+                            opportunities to learn new concepts and acquire valuable skills that will contribute to my personal and professional 
+                            growth</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>JAVA,Javascript,SQL</span><br>Languages </li>
+                            <li><span>Html,Css,Javascript,React.js</span><br>Frontend Web Development</li>
+                            <li><span>SQL,MONGODB</span><br>DataBase Managment System</li>
+                            <li><span>Node.js,Express.js,Firebase</span><br>Backend Web Development</li>
+                            <li><span>Git,Github,Postman</span><br>Tools</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>BE in ELECTRONICS AND INSTRUMENTAION ENGINEERING</span><br>
+                            Ramaiah Institute of Technology</li>
+                            <li><span>PRE-UNIVERSITY</span><br>Konnur PU College,Yallatti Jamakhandi</li>
+                            <li><span>SSLC(secondary examination)</span><br>Goverment Adarsha Vidyalaya(R.M.S.A)</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Completed C++ Training Program </span><br>In SKILL VERTEX</li>
+                            <li><span>Completed c++ Internship Program</span><br>In SKILL VERTEX</li>
+                            <li><span>Completed JAVA Internship Program</span><br>In INTERNPE</li>
+                            <li><span>Completed MONGODB Devlopers toolkit course </span><br>In Geeks For Geeks</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------services---------------------------------->
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS:</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Insta-Stream : Social media application</h2>
+            <p>||React.js,zustand,Firebase,Chakra UI</p>
+            <p>1.Built an Insta-Stream with React and Firebase for real-time updates</p>
+            <p>2.Used Zustand for state management and Chakra UI for responsive design</p>
+            <p>3.Added features like stories, like/unlike posts, post/delete posts, and comments,follow/unfollow users and search the users</p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>AI Chat Bot using MERN Stack : </h2>
+            <p>||MongoDB,Express.js,React.js,Node.js,
+                Typescript.js,Material UI,OpenAI API</p>
+            <p>1.Full Stack Development using MERN</p>
+            <p>2.Secure User Authentication & Authorization using HTTP cookies</p>
+            <p>3.OpenAI APIIntegration</p>
+            <p>4.Responsive using Modern UI</p>
+            <p>5.Efficient Session Management & Data Persistence using MongoDB</p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Movie Search App</h2>
+            <p>||HTML,CSS,Javascript</p>
+            <P>1.A web application that allows user to search for movies and view details like ratings,overview of the movie</P>
+            <p>2.Integrated real-time movie search using JavaScript and external APIs</p>
+            <p>3.Built a responsive and user-friendly interface with HTML and CSS</p>
+        <a href="#">Learn more</a>
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+  
+<!--------------------------------------------contact--------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me:</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact @biradarsomu739@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8197920205</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/somanagouda-biradar-b4b8b7296"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://biradarsomu739@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/somubiradar"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://maps.app.goo.gl/9weU9j9phyqFWjdr5"><i class="fa-solid fa-location-dot"></i></i></a>
+                </div>
+                <a href="filepath/resume pdf" download class="button button2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type=" text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Mesage" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="button button2">submit</button>
+                 </form>
+                 <span id="msg"></span>
+            </div>
+        </div>
+     
+    <div class="copyright">
+        <p>copyright (c) Somu.Made with<i class="fas fa-heart"></i> by Somanagoud Biradar</p>
+    </div>  
+</div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            } for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRl5Ho3GJchod4t4TRi-0A-g2q3rqIYc_1HoUVw4hI-QD6YJYzgjyB38JcHPeF2dDbBQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+       const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },7000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
